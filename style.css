@@ -364,9 +364,17 @@ a:hover {
 
 /*---------------------------ajouts------------------------------------------------*/
 
-blockquote {
+/*blockquote {
     color: black;
 }
+
+.site_navigation_nav_navbar-nav{
+    list-style: none;
+    display: flex;
+    flex: row;
+    justify-content: flex-end;
+    align-items: center;
+}*/
 
 /*---------------------------------------------------------------------------------*/
 
