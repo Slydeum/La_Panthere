@@ -476,7 +476,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 45px!important;
 }
 
 .icon-lg {
@@ -645,7 +645,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
@@ -723,7 +722,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: white!important;
 }
 
 h4 {
@@ -736,7 +735,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -780,7 +779,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color:black!important;
 }
 
 .btn-atomic-tangerine:hover {
