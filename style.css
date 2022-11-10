@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: black
 }
 
 .d-bloc .panel button:hover,
@@ -361,22 +361,6 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
-/*---------------------------ajouts------------------------------------------------*/
-
-/*blockquote {
-    color: black;
-}
-
-.site_navigation_nav_navbar-nav{
-    list-style: none;
-    display: flex;
-    flex: row;
-    justify-content: flex-end;
-    align-items: center;
-}*/
-
-/*---------------------------------------------------------------------------------*/
 
 @media (min-width: 768px) {
     .site-navigation {
