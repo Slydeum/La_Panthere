@@ -650,7 +650,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: bold;
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 .container {
@@ -709,10 +709,10 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: white!important;
 }
 
 .med-width-whitespace {
