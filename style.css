@@ -84,7 +84,7 @@ a:hover {
     background: top no-repeat;
 }
 
-/*.bloc-bg-texture::before {
+.bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
     position: absolute;
@@ -92,12 +92,12 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-}*/
+}
 
-/*.texture-paper::before {
+.texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}*/
+}
 
 .b-parallax {
     background-attachment: fixed;
@@ -726,7 +726,7 @@ h3 {
 }
 
 h1 {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 h4 {
