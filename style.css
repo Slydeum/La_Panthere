@@ -1005,6 +1005,17 @@ h4 {
     .a-block {
         padding: 0 10px;
     }
+
+    /*background*/
+    .bg-banniere {
+        background-image: none;
+        background-color: #a94442;
+    }
+
+    .bg-presentation {
+        background-image: none;
+        background-color: #a94442;
+    }
     .btn-dwn {
         display: none;
     }
