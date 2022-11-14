@@ -718,7 +718,7 @@ h3 {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: white!important;
+    color: rgb(0, 0, 0)!important;
 }
 
 .med-width-whitespace {
@@ -779,7 +779,6 @@ h4 {
     background-color: #F3976C;
 }
 
-/*background-titre*/
 .tc-white {
     color: #f8f8ff;
 }
@@ -907,6 +906,9 @@ h4 {
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
+    }
+    h2{
+        font-size: 20;
     }
     .b-parallax {
         background-attachment: scroll;
