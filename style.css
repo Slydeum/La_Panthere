@@ -7,19 +7,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-ul{
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    top: 18px;
-    font-size: 16px;
-}
-
-li{
-    margin-right: 90px;
-}
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -103,9 +90,9 @@ a:hover {
     background-attachment: fixed;
 }
 
-/*.d-bloc {
+.d-bloc {
     color: rgba(255, 255, 255, .7);
-}*/
+}
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -705,6 +692,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 h2 {
@@ -836,7 +825,7 @@ h4 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 30%
     }
     .nav-center.navbar .nav {
         max-width: 100%
@@ -877,6 +866,16 @@ h4 {
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
     }
+
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    li{
+        margin-right: 20px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -898,6 +897,10 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+    .scrollToTop{
+        bottom: 40px;
+        right: 0px;
+    }
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
@@ -912,6 +915,7 @@ h4 {
         transform: none;
         -webkit-transform: none;
         -ms-transform: none;
+        display: flex;
     }
     .nav > li {
         margin-top: 0;
