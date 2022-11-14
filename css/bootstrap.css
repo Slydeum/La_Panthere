@@ -1785,7 +1785,7 @@ a.bg-danger:hover {
 ol,
 ul {
     margin-top: 0;
-    margin-bottom: 10px
+    margin-bottom: 40px
 }
 
 ol ol,
@@ -4421,7 +4421,7 @@ tbody.collapse.in {
     content: "";
     border-top: 0;
     border-bottom: 4px dashed;
-    border-bottom: 4px solid\9
+    border-bottom: 4px solid;
 }
 
 .dropup .dropdown-menu,

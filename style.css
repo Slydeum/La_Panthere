@@ -13,18 +13,6 @@ button {
     outline: none!important;
 }
 
-ul{
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 16px;
-    position: relative;
-    top: 25px;
-}
-
-li{
-    margin-right: 60px;
-}
 
 a:hover {
     text-decoration: none;
@@ -879,16 +867,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
     }
-
-    ul{
-        list-style: none;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    li{
-        margin-right: 20px;
-    }
 }
 
 @media (max-width: 767px) {
@@ -918,7 +896,7 @@ h4 {
         right: 0px;
     }
     .navbar .nav {
-        padding-top: 0;
+        padding-top: 0px;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
@@ -934,7 +912,7 @@ h4 {
         display: flex;
     }
     .nav > li {
-        margin-top: 0;
+        margin-right: unset;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
         text-align: left;
@@ -990,7 +968,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 10px 0;
     }
     .bloc-sm,
     .bloc-md {
