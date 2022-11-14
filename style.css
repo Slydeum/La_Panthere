@@ -779,6 +779,7 @@ h4 {
     background-color: #F3976C;
 }
 
+/*background-titre*/
 .tc-white {
     color: #f8f8ff;
 }
@@ -1008,12 +1009,12 @@ h4 {
 
     /*background*/
     .bg-banniere {
-        background-image: none;
+        /*background-image: none;*/
         background-color: #a94442;
     }
 
     .bg-presentation {
-        background-image: none;
+        /*background-image: none;*/
         background-color: #a94442;
     }
     .btn-dwn {
