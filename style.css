@@ -538,6 +538,8 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    width: 250px;
+    height: 300px;
 }
 
 a[data-lightbox]:hover::before {
