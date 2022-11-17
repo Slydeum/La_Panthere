@@ -6,7 +6,6 @@ body {
 
 }
 
-
 .nav-bar-2{
     list-style: none;
     display: flex;
@@ -51,45 +50,6 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
-
-/*.bg-center,
-.bg-l-edge,
-.bg-r-edge,
-.bg-t-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
-}*/
-
-.bg-repeat {
-    background: repeat;
-}
-
-.bg-t-edge {
-    background: top no-repeat;
-}
-
-/*.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}*/
-
-/*.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}*/
 
 .b-parallax {
     background-attachment: fixed;
@@ -364,7 +324,6 @@ a:hover {
     top: 50%;
     right: 20px;
     transform: translate(0, -50%);
-    /*-webkit-transform: translateY(-50%);*/
 }
 .nav > li .dropdown-menu a,
 .nav > li .dropdown-menu a:hover {
@@ -517,8 +476,8 @@ button {
     transition: all .3s ease-in-out;
 }
 
-.scrollToTop span {
-    margin: 12px 0 0 12px;
+.scrollToTop .span {
+    margin: 2px 0 0 2px;
 }
 
 .showScrollTop {
