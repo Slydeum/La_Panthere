@@ -987,7 +987,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 10px 0;
+        padding: unset;
     }
     .bloc-sm,
     .bloc-md {
