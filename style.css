@@ -3,8 +3,7 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+
 }
 
 
@@ -32,9 +31,6 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     position: relative;
 }
@@ -56,7 +52,7 @@ a:hover {
     padding: 20px 50px;
 }
 
-.bg-center,
+/*.bg-center,
 .bg-l-edge,
 .bg-r-edge,
 .bg-t-edge,
@@ -70,7 +66,7 @@ a:hover {
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
     background-size: auto!important;
-}
+}*/
 
 .bg-repeat {
     background: repeat;
@@ -363,44 +359,45 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
-    .nav > li .dropdown-menu a,
-    .nav > li .dropdown-menu a:hover {
-        color: #484848;
-    }
-    .nav-invert .site-navigation {
-        left: 0;
-        right: 0;
-    }
-    .nav-center {
-        text-align: center;
-    }
-    .nav-center .navbar-header {
-        width: 100%;
-    }
-    .nav-center .navbar-header,
-    .nav-center .navbar-brand,
-    .nav-center .nav > li {
-        float: none;
-        display: inline-block;
-    }
-    .nav-center .site-navigation {
-        position: relative;
-        width: 100%;
-        right: 0;
-        margin-right: 0px;
-        margin-top: 20px;
-    }
-    .nav-center.mini-nav .navbar-toggle {
-        float: none;
-        margin: 10px auto 0;
-    }
+.site-navigation {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0, -50%);
+    /*-webkit-transform: translateY(-50%);*/
+}
+.nav > li .dropdown-menu a,
+.nav > li .dropdown-menu a:hover {
+    color: #484848;
+}
+.nav-invert .site-navigation {
+    left: 0;
+    right: 0;
+}
+.nav-center {
+    text-align: center;
+}
+.nav-center .navbar-header {
+    width: 100%;
+}
+.nav-center .navbar-header,
+.nav-center .navbar-brand,
+.nav-center .nav > li {
+    float: none;
+    display: inline-block;
+}
+.nav-center .site-navigation {
+    position: relative;
+    width: 100%;
+    right: 0;
+    margin-right: 0px;
+    margin-top: 20px;
+}
+.nav-center.mini-nav .navbar-toggle {
+    float: none;
+    margin: 10px auto 0;
+
+}
 }
 
 .nav > li > .dropdown a {
@@ -436,13 +433,11 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 10px 0 20px 0;
 }
 
 .mg-lg {
-    margin-top: 10px;
-    margin-bottom: 40px;
+    margin: 10px 0 40px 0;
 }
 
 .btn {
@@ -558,13 +553,10 @@ a[data-lightbox]:hover::before {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
-    -webkit-animation-fill-mode: none;
-    animation-fill-mode: none;
 }
 
 #lightbox-modal {
@@ -855,7 +847,7 @@ h4 {
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -926,8 +918,6 @@ h4 {
     .site-navigation {
         position: inherit;
         transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
         display: flex;
     }
     .nav > li {
@@ -965,7 +955,6 @@ h4 {
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
-        -webkit-box-shadow: none;
         box-shadow: none;
     }
     .navbar-brand img {
@@ -1006,16 +995,6 @@ h4 {
         padding: 0 10px;
     }
 
-    /*background- images*/
-    .bg-banniere {
-        /*background-image: none;*/
-        /*background-color: #a94442;*/
-    }
-
-    .bg-presentation {
-        /*background-image: none;*/
-        /*background-color: #a94442;*/
-    }
     .btn-dwn {
         display: none;
     }
