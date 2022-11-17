@@ -877,7 +877,6 @@ h4 {
     .site-navigation {
         position: inherit;
         transform: none;
-        display: flex;
     }
     .nav > li {
         margin-right: unset;
