@@ -5,9 +5,9 @@ body {
     overflow-x: hidden;
 }
 
-font-face {
+/*font-face {
     font-display: swap;
-  }
+  }*/
 
 .nav-bar-2{
     list-style: none;
